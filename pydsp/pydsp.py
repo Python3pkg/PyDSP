@@ -21,6 +21,7 @@ from numpy.fft import ifft
 from numpy.random import random
 from scipy.signal import lfilter, firwin, iirdesign, iirfilter, freqz
 import re
+from functools import reduce
 
 # Model Parameters - Modify these to customize the simulation.
 Npts = 1024    # number of vector points

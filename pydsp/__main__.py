@@ -1,4 +1,4 @@
-from pydsp import *
+from .pydsp import *
 
 PyDSP().configure_traits(view=view1)
 
